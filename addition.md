@@ -21,4 +21,4 @@ Scenario: Add two large number
   And press "=" button
   
   Then I see the result in exponential
-  or display "result can not be displayed"
+  or display "result out of bound"
